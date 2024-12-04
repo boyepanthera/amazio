@@ -1,0 +1,5 @@
+2024/12/04-15:14:02.490 9d03 Creating DB /Users/boyepanthera/Documents/projects/amazio/_IGNORE_AMAZIO/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb since it was missing.
+2024/12/04-15:14:02.996 9d03 Reusing MANIFEST /Users/boyepanthera/Documents/projects/amazio/_IGNORE_AMAZIO/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/12/04-15:14:20.926 8703 Level-0 table #5: started
+2024/12/04-15:14:20.972 8703 Level-0 table #5: 1053243 bytes OK
+2024/12/04-15:14:20.974 8703 Delete type=0 #3
