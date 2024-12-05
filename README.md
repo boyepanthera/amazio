@@ -1,240 +1,133 @@
-# Amazio - WhatsApp Amazon Review Analysis Bot
+# Amazio - WhatsApp Amazon Review Analysis Bot 🤖
 
 A sophisticated WhatsApp bot that helps users make informed purchase decisions by analyzing Amazon product reviews using sentiment analysis and machine learning.
 
-## Project Overview
+## Features
 
-Amazio uses:
+- 📊 Analyze Amazon product reviews
+- 🔄 Compare multiple products
+- 💡 Get buying recommendations
+- 🎯 View sentiment analysis with confidence scores
+- 📈 See review distributions and key insights
 
-- Machine learning for sentiment analysis (Random Forest Classifier)
-- Amazon product review dataset for training
-- WhatsApp as an interface (@open-wa/wa-automate)
-- Python for ML processing
-- Node.js for bot functionality
+## How to Use
 
-## Directory Structure
+1. **Start a Chat**
 
-```
-your-project/
-├── dataset/
-│   └── Datafiniti_Amazon_Consumer_Reviews_of_Amazon_Products.csv
-│
-├── model/                    # Created automatically by scripts
-│   ├── metadata/            # Model information and parameters
-│   ├── validation/          # Validation results
-│   ├── sentiment_model.pkl  # Saved trained model
-│   └── vectorizer.pkl       # Saved TF-IDF vectorizer
-│
-├── bot_data/                # Analysis results for WhatsApp bot
-│   └── analyzer.log         # Bot analysis logs
-│
-├── src/
-│   ├── training/
-│   │   └── review_analyzer.py        # Training pipeline
-│   │
-│   ├── validation/
-│   │   └── model_validator.py        # Validation suite
-│   │
-│   └── bot/
-│       ├── analyze_product.py        # Python analysis bridge
-│       └── index.js                  # WhatsApp bot main file
-│
-├── requirements.txt         # Python dependencies
-└── package.json            # Node.js dependencies
-```
+   - Send "Hi" or "Hello" to get started
+   - The bot will introduce itself and show available commands
 
-## Prerequisites
+2. **Analyze a Product**
 
-### Python Requirements
+   - Share an Amazon product link
+   - Example: `https://amazon.com/dp/B00ZV9PXP2`
+   - The bot will analyze reviews and provide insights
 
-- Python 3.8 or higher
-- pip package manager
+3. **Compare Products**
 
-### Node.js Requirements
+   - Type "compare" or "which is better"
+   - Share the first product link when prompted
+   - Share the second product link when prompted
+   - Get a detailed comparison
 
-- Node.js 14 or higher
-- npm package manager
+4. **Get Help**
+   - Type "help" anytime to see available commands
+   - Type "how" to learn how to share product links
 
-### Dataset
+## Setup
 
-- Download the Datafiniti Amazon Consumer Reviews dataset
-- Place it in the `dataset/` directory
-
-## Installation
-
-1. **Clone the repository**
+1. **Prerequisites**
 
 ```bash
-git clone <repository-url>
-cd your-project
+# Node.js and Python required
+node -v  # Should be v14+
+python --version  # Should be 3.8+
 ```
 
-2. **Create virtual environment (recommended)**
+2. **Installation**
 
 ```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
-
-3. **Install Python dependencies**
-
-```bash
-pip install -r requirements.txt
-```
-
-4. **Install Node.js dependencies**
-
-```bash
+# Install dependencies
 npm install
+pip install -r requirements.txt
+
+# Create required directories
+mkdir -p model/metadata model/validation bot_data dataset
 ```
 
-5. **Create required directories**
+3. **Dataset Setup**
 
 ```bash
-mkdir -p dataset model/metadata model/validation bot_data
+# Place the Amazon reviews dataset in dataset/ directory
+dataset/Datafiniti_Amazon_Consumer_Reviews_of_Amazon_Products.csv
 ```
 
-## Setup Steps
-
-1. **Prepare Dataset**
-
-   - Place the Amazon reviews dataset in the `dataset/` directory
-   - Ensure it's named correctly: `Datafiniti_Amazon_Consumer_Reviews_of_Amazon_Products.csv`
-
-2. **Train the Model**
+4. **Training and Validation**
 
 ```bash
-python src/training/review_analyzer.py
+# Train the model
+npm run train:bot
+
+# Validate the model
+npm run validate:bot
 ```
 
-This will:
-
-- Process the review dataset
-- Train the sentiment analysis model
-- Save the model and vectorizer
-- Create metadata files
-
-3. **Run Model Validation**
+5. **Run the Bot**
 
 ```bash
-python src/validation/model_validator.py
+# Start the WhatsApp bot
+npm run bot
 ```
 
-This validates:
+## Commands
 
-- Model performance
-- Preprocessing consistency
-- Edge case handling
-- Prediction confidence
+- `Hi/Hello` - Start conversation
+- Share product link - Get review analysis
+- `compare` - Compare two products
+- `help` - Show available commands
+- `how` - Learn how to share products
 
-4. **Start the WhatsApp Bot**
-
-```bash
-node src/bot/index.js
-```
-
-## WhatsApp Bot Commands
-
-- `!analyze [productId]` - Analyze reviews for a specific Amazon product
-- `!help` - Display help message and available commands
-
-Example:
+## Project Structure
 
 ```
-!analyze B00ZV9PXP2
+AMAZIO/
+├── src/
+│   ├── bot/              # WhatsApp bot code
+│   ├── training/         # Model training code
+│   └── validation/       # Model validation
+├── model/               # Trained model files
+├── dataset/            # Amazon reviews dataset
+└── bot_data/           # Analysis results
 ```
 
-## Component Details
+## Available Scripts
 
-### Review Analyzer (`review_analyzer.py`)
-
-- Handles data preprocessing
-- Implements model training
-- Includes feature engineering
-- Saves trained model artifacts
-
-### Model Validator (`model_validator.py`)
-
-- Comprehensive validation suite
-- Tests edge cases
-- Validates preprocessing
-- Generates performance metrics
-
-### Product Analyzer (`analyze_product.py`)
-
-- Bridge between Python ML and Node.js
-- Real-time review analysis
-- Sentiment prediction
-- Confidence scoring
-
-### WhatsApp Bot (`index.js`)
-
-- User interface via WhatsApp
-- Command handling
-- Response formatting
-- Error handling
-
-## Logs and Monitoring
-
-- Training logs: `model/training.log`
-- Analysis logs: `bot_data/analyzer.log`
-- Validation results: `model/validation/`
-- Model metadata: `model/metadata/`
+- `npm run bot` - Start the WhatsApp bot
+- `npm run train:bot` - Train the sentiment analysis model
+- `npm run validate:bot` - Validate the trained model
 
 ## Error Handling
 
-The system includes comprehensive error handling:
+- If a product isn't in our database, the bot will let you know
+- If analysis fails, try sharing the product link again
+- Use the help command if you're unsure about anything
 
-- Dataset validation
-- Model training monitoring
-- Analysis result verification
-- Bot command validation
+## Technologies
 
-## Performance Metrics
-
-Access model performance metrics in:
-
-- `model/metadata/model_info.json`
-- `model/validation/validation_results_[timestamp].json`
-
-## Troubleshooting
-
-1. **Model Training Issues**
-
-   - Check dataset format
-   - Verify memory requirements
-   - Review training logs
-
-2. **WhatsApp Bot Connection**
-
-   - Ensure proper authentication
-   - Check network connectivity
-   - Verify QR code scan
-
-3. **Analysis Errors**
-   - Check model files exist
-   - Verify file permissions
-   - Review analyzer logs
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
+- WhatsApp Integration: @open-wa/wa-automate
+- Machine Learning: scikit-learn, NLTK
+- Backend: Node.js, Python
+- Data Processing: pandas, numpy
 
 ## Contributors
 
-- Olanrewaju Olaboye ([@boyepanthera](https://github.com/boyepanthera))
+- Olanrewaju A. Olaboye ([@boyepanthera](https://github.com/boyepanthera))
 - Smitha Raghavendra ([@smitha0928](https://github.com/smitha0928))
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+ISC License
 
-## Acknowledgments
+---
 
-- Datafiniti for the Amazon reviews dataset
-- @open-wa/wa-automate for WhatsApp integration
-- scikit-learn for ML capabilities
+Made with ❤️ by the Amazio Team
