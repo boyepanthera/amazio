@@ -1,6 +1,15 @@
-2024/12/04-15:22:05.679 3003 Reusing MANIFEST /Users/boyepanthera/Documents/projects/amazio/_IGNORE_AMAZIO/Default/Local Storage/leveldb/MANIFEST-000001
-2024/12/04-15:22:05.689 3003 Recovering log #3
-2024/12/04-15:22:05.690 3003 Reusing old log /Users/boyepanthera/Documents/projects/amazio/_IGNORE_AMAZIO/Default/Local Storage/leveldb/000003.log 
-2024/12/04-15:24:06.380 3a03 Level-0 table #5: started
-2024/12/04-15:24:06.385 3a03 Level-0 table #5: 15301 bytes OK
-2024/12/04-15:24:06.415 3a03 Delete type=0 #3
+2024/12/04-20:18:17.016 2d03 Reusing MANIFEST /Users/boyepanthera/Documents/projects/amazio/_IGNORE_AMAZIO/Default/Local Storage/leveldb/MANIFEST-000001
+2024/12/04-20:18:17.026 2d03 Recovering log #16
+2024/12/04-20:18:17.027 2d03 Reusing old log /Users/boyepanthera/Documents/projects/amazio/_IGNORE_AMAZIO/Default/Local Storage/leveldb/000016.log 
+2024/12/04-21:51:22.093 3703 Level-0 table #20: started
+2024/12/04-21:51:22.124 3703 Level-0 table #20: 19244 bytes OK
+2024/12/04-21:51:22.167 3703 Delete type=0 #16
+2024/12/04-21:51:22.174 3703 Compacting 4@0 + 1@1 files
+2024/12/04-21:51:22.198 3703 Generated table #21@0: 231 keys, 13023 bytes
+2024/12/04-21:51:22.198 3703 Compacted 4@0 + 1@1 files => 13023 bytes
+2024/12/04-21:51:22.237 3703 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/12/04-21:51:22.242 3703 Delete type=2 #14
+2024/12/04-21:51:22.263 3703 Delete type=2 #17
+2024/12/04-21:51:22.263 3703 Delete type=2 #11
+2024/12/04-21:51:22.263 3703 Delete type=2 #8
+2024/12/04-21:51:22.283 3703 Delete type=2 #20

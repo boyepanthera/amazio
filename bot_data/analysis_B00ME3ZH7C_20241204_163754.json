@@ -1,0 +1,50 @@
+{
+  "product_id": "B00ME3ZH7C",
+  "timestamp": "2024-12-04T16:37:54.443983",
+  "summary": {
+    "overall_sentiment": "positive",
+    "confidence_score": 0.9129999999999999,
+    "review_counts": {
+      "positive": 5,
+      "neutral": 0,
+      "negative": 0
+    },
+    "recommendation": "Highly Recommended - Strong positive sentiment with high confidence"
+  },
+  "detailed_analysis": [
+    {
+      "review": "This product is amazing! Exactly what I needed.",
+      "sentiment": "positive",
+      "confidence": 0.995,
+      "analysis_timestamp": "2024-12-04T16:37:54.372504"
+    },
+    {
+      "review": "Good quality but a bit expensive",
+      "sentiment": "positive",
+      "confidence": 0.98,
+      "analysis_timestamp": "2024-12-04T16:37:54.390746"
+    },
+    {
+      "review": "Not what I expected, had to return it",
+      "sentiment": "positive",
+      "confidence": 0.845,
+      "analysis_timestamp": "2024-12-04T16:37:54.408336"
+    },
+    {
+      "review": "Perfect for my needs, highly recommend",
+      "sentiment": "positive",
+      "confidence": 0.985,
+      "analysis_timestamp": "2024-12-04T16:37:54.426365"
+    },
+    {
+      "review": "Average product, nothing special",
+      "sentiment": "positive",
+      "confidence": 0.76,
+      "analysis_timestamp": "2024-12-04T16:37:54.443961"
+    }
+  ],
+  "model_info": {
+    "model_type": "RandomForestClassifier",
+    "training_date": "2024-12-04T16:14:09.831339"
+  }
+}

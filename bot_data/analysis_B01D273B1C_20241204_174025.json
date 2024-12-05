@@ -1,0 +1,75 @@
+{
+  "product_id": "B01D273B1C",
+  "product_info": {
+    "id": "B01D273B1C",
+    "name": "Amazon Product (B01D273B1C)",
+    "url": "https://www.amazon.com/dp/B01D273B1C"
+  },
+  "timestamp": "2024-12-04T17:40:25.559451",
+  "summary": {
+    "overall_sentiment": "positive",
+    "confidence_score": 0.8483333333333333,
+    "review_counts": {
+      "positive": 9,
+      "neutral": 0,
+      "negative": 0
+    },
+    "recommendation": "Highly recommended based on consistently positive reviews."
+  },
+  "detailed_analysis": [
+    {
+      "review": "This product is amazing! Exactly what I needed.",
+      "processed": "product amazing exactly needed",
+      "sentiment": "positive",
+      "confidence": 0.995
+    },
+    {
+      "review": "Good quality but a bit expensive",
+      "processed": "good quality bit expensive",
+      "sentiment": "positive",
+      "confidence": 0.98
+    },
+    {
+      "review": "Not what I expected, had to return it",
+      "processed": "expected return",
+      "sentiment": "positive",
+      "confidence": 0.845
+    },
+    {
+      "review": "Perfect for my needs, highly recommend",
+      "processed": "perfect needs highly recommend",
+      "sentiment": "positive",
+      "confidence": 0.985
+    },
+    {
+      "review": "Average product, nothing special",
+      "processed": "average product nothing special",
+      "sentiment": "positive",
+      "confidence": 0.76
+    },
+    {
+      "review": "Terrible quality, avoid this product",
+      "processed": "terrible quality avoid product",
+      "sentiment": "positive",
+      "confidence": 0.44
+    },
+    {
+      "review": "Decent product for the price",
+      "processed": "decent product price",
+      "sentiment": "positive",
+      "confidence": 0.91
+    },
+    {
+      "review": "Don't waste your money on this",
+      "processed": "waste money",
+      "sentiment": "positive",
+      "confidence": 0.79
+    },
+    {
+      "review": "It's okay, but could be better",
+      "processed": "okay could better",
+      "sentiment": "positive",
+      "confidence": 0.93
+    }
+  ]
+}

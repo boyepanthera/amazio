@@ -1,2 +1,3 @@
-2024/12/04-14:39:31.091 9d03 Creating DB /Users/boyepanthera/Documents/projects/amazio/_IGNORE_AMAZIO/Default/Extension Scripts since it was missing.
-2024/12/04-14:39:31.104 9d03 Reusing MANIFEST /Users/boyepanthera/Documents/projects/amazio/_IGNORE_AMAZIO/Default/Extension Scripts/MANIFEST-000001
+2024/12/04-18:32:24.019 b703 Reusing MANIFEST /Users/boyepanthera/Documents/projects/amazio/_IGNORE_AMAZIO/Default/Extension Scripts/MANIFEST-000001
+2024/12/04-18:32:24.019 b703 Recovering log #3
+2024/12/04-18:32:24.020 b703 Reusing old log /Users/boyepanthera/Documents/projects/amazio/_IGNORE_AMAZIO/Default/Extension Scripts/000003.log 

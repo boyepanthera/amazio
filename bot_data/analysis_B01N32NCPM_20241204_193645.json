@@ -1,0 +1,47 @@
+{
+  "product_id": "B01N32NCPM",
+  "product_info": {
+    "name": "Amazon Fire TV with 4K Ultra HD and Alexa Voice Remote (Pendant Design) | Streaming Media Player",
+    "brand": "Amazon",
+    "category": "Electronics",
+    "id": "B01N32NCPM",
+    "url": "https://www.amazon.com/dp/B01N32NCPM"
+  },
+  "timestamp": "2024-12-04T19:36:45.969753",
+  "summary": {
+    "overall_sentiment": "positive",
+    "confidence_score": 0.975,
+    "review_counts": {
+      "positive": 4,
+      "neutral": 0,
+      "negative": 0
+    },
+    "recommendation": "Highly recommended based on consistently positive reviews."
+  },
+  "detailed_analysis": [
+    {
+      "review": "A lazy mans drean when it is combined with Alexa. If you get the harmony hub you can really impress with home automation",
+      "processed": "lazy mans drean combined alexa get harmony hub really impress home automation",
+      "sentiment": "positive",
+      "confidence": 0.995
+    },
+    {
+      "review": "I really enjoy my Fire stick. It's really easy to use.",
+      "processed": "really enjoy fire stick really easy use",
+      "sentiment": "positive",
+      "confidence": 0.985
+    },
+    {
+      "review": "Really cool device! Instantly noticed the difference in quality when I switched from the regular Fire Stick to the Fire TV with 4k.",
+      "processed": "really cool device instantly noticed difference quality switched regular fire stick fire tv",
+      "sentiment": "positive",
+      "confidence": 0.925
+    },
+    {
+      "review": "Love it! Works great. One in each of the main rooms.",
+      "processed": "love works great one main rooms",
+      "sentiment": "positive",
+      "confidence": 0.995
+    }
+  ]
+}

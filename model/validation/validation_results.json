@@ -1,0 +1,66 @@
+{
+  "timestamp": "2024-12-04T18:20:42.960244",
+  "test_cases": [
+    {
+      "original_text": "This is the best product I've ever used! Absolutely fantastic quality.",
+      "processed_text": "best product ever used absolutely fantastic quality",
+      "prediction": "positive",
+      "confidence": 1.0,
+      "vector_shape": 4596
+    },
+    {
+      "original_text": "Complete waste of money. Poor quality and terrible customer service.",
+      "processed_text": "complete waste money poor quality terrible customer service",
+      "prediction": "negative",
+      "confidence": 0.55,
+      "vector_shape": 4596
+    },
+    {
+      "original_text": "It's okay, nothing special but gets the job done.",
+      "processed_text": "okay nothing special gets job done",
+      "prediction": "positive",
+      "confidence": 0.845,
+      "vector_shape": 4596
+    },
+    {
+      "original_text": "Good product but a bit expensive for what you get.",
+      "processed_text": "good product bit expensive get",
+      "prediction": "positive",
+      "confidence": 0.995,
+      "vector_shape": 4596
+    },
+    {
+      "original_text": "Not sure about this one, has some good points but also some issues.",
+      "processed_text": "sure one good points also issues",
+      "prediction": "positive",
+      "confidence": 0.99,
+      "vector_shape": 4596
+    },
+    {
+      "original_text": "Arrived damaged and packaging was terrible.",
+      "processed_text": "arrived damaged packaging terrible",
+      "prediction": "positive",
+      "confidence": 0.51,
+      "vector_shape": 4596
+    },
+    {
+      "original_text": "Perfect for my needs, exactly as described.",
+      "processed_text": "perfect needs exactly described",
+      "prediction": "positive",
+      "confidence": 0.985,
+      "vector_shape": 4596
+    },
+    {
+      "original_text": "Average performance, wouldn't buy again but not terrible.",
+      "processed_text": "average performance would buy terrible",
+      "prediction": "positive",
+      "confidence": 0.47,
+      "vector_shape": 4596
+    }
+  ],
+  "summary": {
+    "total_cases": 8,
+    "high_confidence_predictions": 5,
+    "average_confidence": 0.793125
+  }
+}

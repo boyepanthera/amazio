@@ -4,10 +4,11 @@
   "description": "Sentiment analysis bot",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "bot": "node src/bot/index.js  "
+    "bot": "node src/bot/index.js  ",
+    "train:bot": "python src/training/review_analyzer.py",
+    "validate:bot": "python src/validation/model_validator.py"
   },
-  "author": "Olanrewaju Olaboye",
+  "author": "Olanrewaju A. Olaboye, Smitha Raghavendra",
   "license": "ISC",
   "dependencies": {
     "@open-wa/wa-automate": "^4.74.2"

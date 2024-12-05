@@ -1,0 +1,599 @@
+{
+  "product_id": "B00ZV9PXP2",
+  "product_info": {
+    "name": "Amazon Kindle E-Reader 6\" Wifi (8th Generation, 2016)",
+    "brand": "Amazon",
+    "category": "Electronics",
+    "id": "B00ZV9PXP2",
+    "url": "https://www.amazon.com/dp/B00ZV9PXP2"
+  },
+  "timestamp": "2024-12-04T19:16:59.270161",
+  "summary": {
+    "overall_sentiment": "positive",
+    "confidence_score": 0.9533854166666668,
+    "review_counts": {
+      "positive": 87,
+      "neutral": 7,
+      "negative": 2
+    },
+    "recommendation": "Highly recommended based on consistently positive reviews."
+  },
+  "detailed_analysis": [
+    {
+      "review": "I thought it would be as big as small paper but turn out to be just like my palm. I think it is too small to read on it... not very comfortable as regular Kindle. Would definitely recommend a paperwhite instead.",
+      "processed": "thought would big small paper turn like palm think small read comfortable regular kindle would definitely recommend paperwhite instead",
+      "sentiment": "neutral",
+      "confidence": 0.65
+    },
+    {
+      "review": "This kindle is light and easy to use especially at the beach!!!",
+      "processed": "kindle light easy use especially beach",
+      "sentiment": "positive",
+      "confidence": 1.0
+    },
+    {
+      "review": "Didnt know how much i'd use a kindle so went for the lower end. im happy with it, even if its a little dark",
+      "processed": "didnt know much use kindle went lower end im happy even little dark",
+      "sentiment": "positive",
+      "confidence": 1.0
+    },
+    {
+      "review": "I am 100 happy with my purchase. I caught it on sale at a really good price. I am normally a real book person, but I have a 1 year old who loves ripping up pages. The Kindle prevents that, it's extremely portable (it fits better in my purse than a giant book), and I have it loaded with lots of books. I finish one and start another, without having to go store. It serves all my needs. I picked this one over the Paperwhite because the price was unbeatable and the only difference that I could see was this one wasn't backlit. A simple book light from the Dollar tree solves that issue. This is my second Kindle (the first being the old Keyboard model, which I put down because I fell out of love with the keyboard. Lol) and it most likely won't be my last.",
+      "processed": "happy purchase caught sale really good price normally real book person year old loves ripping pages kindle prevents extremely portable fits better purse giant book loaded lots books finish one start another without go store serves needs picked one paperwhite price unbeatable difference could see one backlit simple book light dollar tree solves issue second kindle first old keyboard model put fell love keyboard lol likely wo last",
+      "sentiment": "positive",
+      "confidence": 0.985
+    },
+    {
+      "review": "Solid entry level Kindle. Great for kids. Gifted for a kid of my friend and they love to use it to read more than their iPads. battery is good but higher model is a bit better.",
+      "processed": "solid entry level kindle great kids gifted kid friend love use read ipads battery good higher model bit better",
+      "sentiment": "positive",
+      "confidence": 0.985
+    },
+    {
+      "review": "This make an excellent ebook reader. Don't expect much from this device except to read basic ebooks. The good thing is it's cheap and good to read in the sun.",
+      "processed": "make excellent ebook reader expect much device except read basic ebooks good thing cheap good read sun",
+      "sentiment": "positive",
+      "confidence": 1.0
+    },
+    {
+      "review": "I ordered this for my daughter, as I have the black paperwhite, and I love it. I read quite a bit and the larger books were driving me crazy having to hold them up while laying down, or wanting to take a book on vacation and lugging around a thick paperback, with this I can throw it in my bag and read anywhere. Its light weight, easy to use, the battery life lasts for weeks, which makes it an all around awesome device. My daughter is in public school and they offer an online library for E-Readers, so she can now download books for free from school! You can also download your own public library app (if your county offers that) and read free from there as well. You can shop for e-books straight from the device through Amazon.com.",
+      "processed": "ordered daughter black paperwhite love read quite bit larger books driving crazy hold laying wanting take book vacation lugging around thick paperback throw bag read anywhere light weight easy use battery life lasts weeks makes around awesome device daughter public school offer online library download books free school also download public library app county offers read free well shop straight device",
+      "sentiment": "positive",
+      "confidence": 1.0
+    },
+    {
+      "review": "I bought my Kindle about 2 months ago and the battery is already dead and will not charge",
+      "processed": "bought kindle months ago battery already dead charge",
+      "sentiment": "positive",
+      "confidence": 0.985
+    },
+    {
+      "review": "amazon kindle is always the best ebook, upgrade every new model",
+      "processed": "amazon kindle always best ebook upgrade every new model",
+      "sentiment": "positive",
+      "confidence": 0.98
+    },
+    {
+      "review": "It's beyond my expectation, and it can even show music score. Not fast turning though.",
+      "processed": "beyond expectation even show music score fast turning though",
+      "sentiment": "positive",
+      "confidence": 1.0
+    },
+    {
+      "review": "If you really want to have a good read on something digital this is the item you're looking for. It really is lightweight and highly functional. The battery lasts a long time and the screen is easy on the eyes. The only difficulty sometimes is reading in extremely bright environments. Overall an excellent buy.",
+      "processed": "really want good read something digital item looking really lightweight highly functional battery lasts long time screen easy eyes difficulty sometimes reading extremely bright environments overall excellent buy",
+      "sentiment": "positive",
+      "confidence": 1.0
+    },
+    {
+      "review": "Love my kindle, makes reading at night so easy and it feels like you are reading a real book.",
+      "processed": "love kindle makes reading night easy feels like reading real book",
+      "sentiment": "positive",
+      "confidence": 0.985
+    },
+    {
+      "review": "Good product for child. Who only need to read the books",
+      "processed": "good product child need read books",
+      "sentiment": "positive",
+      "confidence": 0.975
+    },
+    {
+      "review": "This Kindle is a convenient size yet lettering is easy to read.",
+      "processed": "kindle convenient size yet lettering easy read",
+      "sentiment": "positive",
+      "confidence": 0.965
+    },
+    {
+      "review": "I use this every day on my commute. Great battery life, no backlight but very readable with normal lighting. I like the built in dictionary. Email yourself pdf or mobi files for easy transfers.",
+      "processed": "use every day commute great battery life backlight readable normal lighting like built dictionary email pdf mobi files easy transfers",
+      "sentiment": "positive",
+      "confidence": 0.995
+    },
+    {
+      "review": "It does its job but I would buy one which the screen is brighter. There are times that it's difficult to read because screen is not too bright",
+      "processed": "job would buy one screen brighter times difficult read screen bright",
+      "sentiment": "neutral",
+      "confidence": 0.66
+    },
+    {
+      "review": "Great product for myself! And I bought it when there was great deal on it!",
+      "processed": "great product bought great deal",
+      "sentiment": "positive",
+      "confidence": 1.0
+    },
+    {
+      "review": "Item work well and was easy to read from in day light",
+      "processed": "item work well easy read day light",
+      "sentiment": "positive",
+      "confidence": 0.995
+    },
+    {
+      "review": "Great product and service will refer to a friend. And the sales man r good",
+      "processed": "great product service refer friend sales man r good",
+      "sentiment": "positive",
+      "confidence": 1.0
+    },
+    {
+      "review": "Everything is great except that i can't read external pdfs properly. Either it zooms too much of too little. For kindle books it provides great experience. Battery life is awesome!",
+      "processed": "everything great except ca read external pdfs properly either zooms much little kindle books provides great experience battery life awesome",
+      "sentiment": "positive",
+      "confidence": 0.87
+    },
+    {
+      "review": "I was looking for a kindle whitepaper. I saw online for $80. What a deal. I ordered it on line and picked it up in the store. I got it home and couldn't adjust the brightness. After a lengthy time with online customer service I called customer service. After 20 minuets with speaking to a female Elmer Fud that doesn't speak english well I figured I would just return it. Although it looks Identical to the $120 model, you can not adjust the brightness. That would have been good information before I bought it.",
+      "processed": "looking kindle whitepaper saw online deal ordered line picked store got home could adjust brightness lengthy time online customer service called customer service minuets speaking female elmer fud speak english well figured would return although looks identical model adjust brightness would good information bought",
+      "sentiment": "negative",
+      "confidence": 0.645
+    },
+    {
+      "review": "This is a nice bare-bones reading device. Easy to set up and use. My greatest issue is that it isn't back lit so it can't be used w/o a light on in the room. Returning it an purchasing a paperwhite instead.",
+      "processed": "nice reading device easy set use greatest issue back lit ca used light room returning purchasing paperwhite instead",
+      "sentiment": "positive",
+      "confidence": 0.825
+    },
+    {
+      "review": "Easy to use and navigate, purchasing books is fast and simple and I love the fact that I can password protect this device",
+      "processed": "easy use navigate purchasing books fast simple love fact password protect device",
+      "sentiment": "positive",
+      "confidence": 1.0
+    },
+    {
+      "review": "The Amazon Kindle is light weight and easy to use.",
+      "processed": "amazon kindle light weight easy use",
+      "sentiment": "positive",
+      "confidence": 1.0
+    },
+    {
+      "review": "I love hear readers, I had to replace mine because I destroyed the last, but it is awesome",
+      "processed": "love hear readers replace mine destroyed last awesome",
+      "sentiment": "positive",
+      "confidence": 1.0
+    },
+    {
+      "review": "Love the simplicity. Also love that I use it for reading only and can't download distracting apps.",
+      "processed": "love simplicity also love use reading ca download distracting apps",
+      "sentiment": "positive",
+      "confidence": 1.0
+    },
+    {
+      "review": "My husband loves this Kindle. He has a muscular disease keeping him from being able to handle anything with much weight at all. This is perfect.",
+      "processed": "husband loves kindle muscular disease keeping able handle anything much weight perfect",
+      "sentiment": "positive",
+      "confidence": 0.995
+    },
+    {
+      "review": "I've wanted a kindle for a while and decided to get it when BB put it on sale. I am not disappointed.",
+      "processed": "wanted kindle decided get bb put sale disappointed",
+      "sentiment": "positive",
+      "confidence": 0.96
+    },
+    {
+      "review": "I have several Kindles so knew what to expect. It is a great reading device and I keep several in different locations.",
+      "processed": "several kindles knew expect great reading device keep several different locations",
+      "sentiment": "positive",
+      "confidence": 1.0
+    },
+    {
+      "review": "I like this e reader, but wish the screen were higher resolution. It requires decent light to look good, but it is easy on my eyes. The screen updates involve flashing the whole screen, which I noticed less over time. The advertised month long battery life is just standby time, it lasts much less if you are downloading and reading books.",
+      "processed": "like e reader wish screen higher resolution requires decent light look good easy eyes screen updates involve flashing whole screen noticed less time advertised month long battery life standby time lasts much less downloading reading books",
+      "sentiment": "positive",
+      "confidence": 0.955
+    },
+    {
+      "review": "My fianc\u221a\u00a9e really enjoyes it! I would definitely recommend.",
+      "processed": "really enjoyes would definitely recommend",
+      "sentiment": "positive",
+      "confidence": 1.0
+    },
+    {
+      "review": "Simple, great buy for your money if you are an avid reader.",
+      "processed": "simple great buy money avid reader",
+      "sentiment": "positive",
+      "confidence": 1.0
+    },
+    {
+      "review": "I like the changes that have been made since my current 4 year old unit was purchased",
+      "processed": "like changes made since current year old unit purchased",
+      "sentiment": "positive",
+      "confidence": 0.985
+    },
+    {
+      "review": "Fits nicely in your hand and its touchable. increase the size of the fonts",
+      "processed": "fits nicely hand touchable increase size fonts",
+      "sentiment": "positive",
+      "confidence": 1.0
+    },
+    {
+      "review": "Great buy, do a lot of reading and he no glear screen is awesome while in the sun.",
+      "processed": "great buy lot reading glear screen awesome sun",
+      "sentiment": "positive",
+      "confidence": 1.0
+    },
+    {
+      "review": "I lie the size and weight for the kindle-makes it very convenient to take large books with me in digital format.",
+      "processed": "lie size weight convenient take large books digital format",
+      "sentiment": "positive",
+      "confidence": 1.0
+    },
+    {
+      "review": "Great price and works great for book reading. Would recommend",
+      "processed": "great price works great book reading would recommend",
+      "sentiment": "positive",
+      "confidence": 1.0
+    },
+    {
+      "review": "Got it when it was on sale. Totally fall in love with it. Bring with it me everywhere.",
+      "processed": "got sale totally fall love bring everywhere",
+      "sentiment": "positive",
+      "confidence": 0.99
+    },
+    {
+      "review": "I never used kindle before. My wife gifted me on my birthday. This is the amazing product. I am using it for daily reading. The display is fantastic and no strain on eyes.",
+      "processed": "never used kindle wife gifted birthday amazing product using daily reading display fantastic strain eyes",
+      "sentiment": "positive",
+      "confidence": 0.995
+    },
+    {
+      "review": "I bought this with paper white and didn\u201a\u00c4\u00f4t see much of a difference in terms of resolution and use. I totally recommend this reader as it\u201a\u00c4\u00f4s so small and powerful!",
+      "processed": "bought paper white see much difference terms resolution use totally recommend reader small powerful",
+      "sentiment": "positive",
+      "confidence": 0.915
+    },
+    {
+      "review": "The sales people are really nice and knowledgeable to me I will come back again",
+      "processed": "sales people really nice knowledgeable come back",
+      "sentiment": "positive",
+      "confidence": 0.995
+    },
+    {
+      "review": "I'm a longtime Kindle user and jumped at the opportunity to bring my granddaughter into the fold with this gift. She loved it!",
+      "processed": "longtime kindle user jumped opportunity bring granddaughter fold gift loved",
+      "sentiment": "positive",
+      "confidence": 1.0
+    },
+    {
+      "review": "Overall good product, does what is advertised, comfortable to use.",
+      "processed": "overall good product advertised comfortable use",
+      "sentiment": "positive",
+      "confidence": 0.995
+    },
+    {
+      "review": "The kindle has come in very handy lately, I always have a book to read and this is great to just grab on the go. Battery life is great, only drawback is no backlight.",
+      "processed": "kindle come handy lately always book read great grab go battery life great drawback backlight",
+      "sentiment": "positive",
+      "confidence": 0.99
+    },
+    {
+      "review": "I am loving my new Kindle! I have wanted one for a while and finally bought one, and even though it was the cheapest one, it has exceeded my expectations. I love how there is no glare.",
+      "processed": "loving new kindle wanted one finally bought one even though cheapest one exceeded expectations love glare",
+      "sentiment": "positive",
+      "confidence": 1.0
+    },
+    {
+      "review": "I already has an older version of the Kindle, but this one is even better. I love the touch screen and the ability to scroll without buttons.",
+      "processed": "already older version kindle one even better love touch screen ability scroll without buttons",
+      "sentiment": "positive",
+      "confidence": 0.985
+    },
+    {
+      "review": "Bought this for my 90+ year-old, totally no-tech mom. Her first e-book is Gone with the Wind. She likes the size and ease of use.",
+      "processed": "bought totally mom first gone wind likes size ease use",
+      "sentiment": "positive",
+      "confidence": 0.995
+    },
+    {
+      "review": "Amazon kindle products have always been reliable, consistent quality and this is no different. Very happy with it.",
+      "processed": "amazon kindle products always reliable consistent quality different happy",
+      "sentiment": "positive",
+      "confidence": 0.99
+    },
+    {
+      "review": "working well and very cheap if we think in the price way",
+      "processed": "working well cheap think price way",
+      "sentiment": "positive",
+      "confidence": 0.955
+    },
+    {
+      "review": "The battery doesn't last as long as was advertised, if you have the money I would recommend the backlit model.",
+      "processed": "battery last long advertised money would recommend backlit model",
+      "sentiment": "positive",
+      "confidence": 0.98
+    },
+    {
+      "review": "This Kindle doesn't have a lighted screen like the pricier models but it has a higher dpi screen than the lower model. It's exactly what I needed, nothing more, nothing less. I've had no problems with the reader at all so far so I'll give it 5 stars.",
+      "processed": "kindle lighted screen like pricier models higher dpi screen lower model exactly needed nothing nothing less problems reader far give stars",
+      "sentiment": "positive",
+      "confidence": 0.98
+    },
+    {
+      "review": "The kindle is good to download apps for books catch up with reading",
+      "processed": "kindle good download apps books catch reading",
+      "sentiment": "neutral",
+      "confidence": 0.62
+    },
+    {
+      "review": "After the first one stopped working after only 3 weeks-best Buy replaced it with no fuss and it's going great. Small, lightweight (so fits in a purse/handbag) and with the anti-glare screen you can read in direct sunlight",
+      "processed": "first one stopped working buy replaced fuss going great small lightweight fits screen read direct sunlight",
+      "sentiment": "positive",
+      "confidence": 1.0
+    },
+    {
+      "review": "I bought this Kindle Paperwhite for my son to use at school, instead of his more expensive and delicate tablet. The display options make it adaptable for just about anyone, and is much easier on the eyes when reading for an extended period of time. Please keep in mind that this does not have a glowlight. The Kindle is durable, and although I bought a case for it, a case really isnt necessary if you are relatively careful with it. The most surprising thing about this has been the extra long battery life. My son is an avid reader, and noticed that he needs to charge his Kindle considerably less than when he uses his tablet.",
+      "processed": "bought kindle paperwhite son use school instead expensive delicate tablet display options make adaptable anyone much easier eyes reading extended period time please keep mind glowlight kindle durable although bought case case really isnt necessary relatively careful surprising thing extra long battery life son avid reader noticed needs charge kindle considerably less uses tablet",
+      "sentiment": "positive",
+      "confidence": 1.0
+    },
+    {
+      "review": "Great item, easy to use,would recommend to anybody want to use!",
+      "processed": "great item easy use would recommend anybody want use",
+      "sentiment": "positive",
+      "confidence": 1.0
+    },
+    {
+      "review": "I bought this as a gift to my dad and he loves it. Well worth if you dont plan on reading in dark.",
+      "processed": "bought gift dad loves well worth dont plan reading dark",
+      "sentiment": "positive",
+      "confidence": 0.96
+    },
+    {
+      "review": "the future of reading you just have this and it is like a whole library",
+      "processed": "future reading like whole library",
+      "sentiment": "positive",
+      "confidence": 0.985
+    },
+    {
+      "review": "I bought this for my daughter, wanting to get her a kindle without having access to games (like with the kindle fire). This latest version of the kindle is excellent. I am jealous of my daughter and now am thinking about upgrading from my older kindle. The touchscreen is responsive. If you like reading on the kindle, it is worth the update.",
+      "processed": "bought daughter wanting get kindle without access games like kindle fire latest version kindle excellent jealous daughter thinking upgrading older kindle touchscreen responsive like reading kindle worth update",
+      "sentiment": "positive",
+      "confidence": 1.0
+    },
+    {
+      "review": "This is a great way to read books on the go. There's no backlight, so reading in darker rooms may be hard. But it's affordable and portable and a great way to take all your books with you.",
+      "processed": "great way read books go backlight reading darker rooms may hard affordable portable great way take books",
+      "sentiment": "positive",
+      "confidence": 1.0
+    },
+    {
+      "review": "I love the Kindle, it is a great product. It reduces eye strain so I enjoy reading on it. This is my second Kindle.",
+      "processed": "love kindle great product reduces eye strain enjoy reading second kindle",
+      "sentiment": "positive",
+      "confidence": 1.0
+    },
+    {
+      "review": "i bought this as a backup. I am currently using the same headphone.",
+      "processed": "bought backup currently using headphone",
+      "sentiment": "positive",
+      "confidence": 1.0
+    },
+    {
+      "review": "We got the Kindle for our daughter who accompanied us to try out the two Kindle models. We were willing to buy either one and we assumed she would want the more expensive one with the backlighting feature. But as she tried both, she gravitated with certainty toward the basic model. \"Why would U want to read in the dark?\" She said. As the weeks and months have gone by, she says she's completely happy with the basic Kindle, it's exactly what she wanted. Perfect.",
+      "processed": "got kindle daughter accompanied us try two kindle models willing buy either one assumed would want expensive one backlighting feature tried gravitated certainty toward basic model would u want read dark said weeks months gone says completely happy basic kindle exactly wanted perfect",
+      "sentiment": "positive",
+      "confidence": 0.94
+    },
+    {
+      "review": "Good, able to read under bright sunlight conditions too",
+      "processed": "good able read bright sunlight conditions",
+      "sentiment": "positive",
+      "confidence": 0.965
+    },
+    {
+      "review": "Very easy to handle. many books to choose from and very convenient",
+      "processed": "easy handle many books choose convenient",
+      "sentiment": "positive",
+      "confidence": 1.0
+    },
+    {
+      "review": "I purchased this product because I love to read and buying books got costly. With this product I can read all I want for 10.00 a month",
+      "processed": "purchased product love read buying books got costly product read want month",
+      "sentiment": "positive",
+      "confidence": 1.0
+    },
+    {
+      "review": "it is smaller than i thought but it gets the job done.",
+      "processed": "smaller thought gets job done",
+      "sentiment": "positive",
+      "confidence": 0.94
+    },
+    {
+      "review": "Love my new Kindle! I hadn't read in a while and hesitant of a kindle, easy to use, lightweight and convenient to pick up a book. great for outdoor reading. only downside is if you want to read in the dark has no back light. crisp clear text and easy to set up.",
+      "processed": "love new kindle read hesitant kindle easy use lightweight convenient pick book great outdoor reading downside want read dark back light crisp clear text easy set",
+      "sentiment": "positive",
+      "confidence": 0.995
+    },
+    {
+      "review": "Product is good, light. Amazing battery backup. I charge the Kindle one in 4 weeks. Great product for reasonable price. USB connection is easy, Books are easy to download. Overall, everyone must have Kindle with them and this is the best product/model to start with.Understandably, this is the beginner level model for people who never used Kindle before. Features like LED lights, White paper background are not available on this model. These features are there on higher models so one cannot read it in Dark without lights. But again, for this price you would not get any other good readers.If you are someone who reads in dark then I would suggest go for Higher Kindle models.",
+      "processed": "product good light amazing battery backup charge kindle one weeks great product reasonable price usb connection easy books easy download overall everyone must kindle best start beginner level model people never used kindle features like led lights white paper background available model features higher models one read dark without lights price would get good someone reads dark would suggest go higher kindle models",
+      "sentiment": "positive",
+      "confidence": 0.995
+    },
+    {
+      "review": "Kindle is the perfect E-reader. Easy to use and size is perfect to bring 'book' on the go.",
+      "processed": "kindle perfect easy use size perfect bring go",
+      "sentiment": "positive",
+      "confidence": 1.0
+    },
+    {
+      "review": "Easy to use and it arrived exactly as described. Good beginner device for youngsters who want a device to read from.",
+      "processed": "easy use arrived exactly described good beginner device youngsters want device read",
+      "sentiment": "positive",
+      "confidence": 0.985
+    },
+    {
+      "review": "Looking at the picture and seeing it was 8th generation I assumed it would be a great device. I had an original Kindle but I stopped using it because it wasn't backlit. I thought an 8th generation would be backlit and the picture makes it look backlit but it is not. After 25 minutes on the phone with Amazon trying to make it brighter the technician finally realized that 8th generation is not supported with backlights. I took it back to Target and purchased The Paperwhite which was more money but definitely worth it. The 8th generation one is smaller so I assumed that was the reason for the price difference. Target made the experience pleasant.",
+      "processed": "looking picture seeing generation assumed would great device original kindle stopped using backlit thought generation would backlit picture makes look backlit minutes phone amazon trying make brighter technician finally realized generation supported backlights took back target purchased paperwhite money definitely worth generation one smaller assumed reason price difference target made experience pleasant",
+      "sentiment": "positive",
+      "confidence": 0.905
+    },
+    {
+      "review": "My fiance really enjoyes it! I would definitely recommend.",
+      "processed": "fiance really enjoyes would definitely recommend",
+      "sentiment": "positive",
+      "confidence": 1.0
+    },
+    {
+      "review": "For me, the Kindle Black was not a good fit for me. There are times I read at night in bed when my husband is sleeping. This model doesn't have a back light so I'm unable to read at night without turning on a light and waking up my husband.So I returned and went for a Kindle Fire.",
+      "processed": "kindle black good fit times read night bed husband sleeping model back light unable read night without turning light waking returned went kindle fire",
+      "sentiment": "neutral",
+      "confidence": 0.665
+    },
+    {
+      "review": "It is still the best device for buying books and reading them. However, go with kindle paperwhite if you read books in dark places.",
+      "processed": "still best device buying books reading however go kindle paperwhite read books dark places",
+      "sentiment": "positive",
+      "confidence": 0.975
+    },
+    {
+      "review": "Great product and service and the sales man r really nice.",
+      "processed": "great product service sales man r really nice",
+      "sentiment": "positive",
+      "confidence": 1.0
+    },
+    {
+      "review": "When you first turn on the kindle, the home screen does not make it easy to determine exactly how to open up and read a downloaded book.",
+      "processed": "first turn kindle home screen make easy determine exactly open read downloaded book",
+      "sentiment": "positive",
+      "confidence": 1.0
+    },
+    {
+      "review": "My wife loves it, replaces a Kindle from like 2003.",
+      "processed": "wife loves replaces kindle like",
+      "sentiment": "positive",
+      "confidence": 1.0
+    },
+    {
+      "review": "It's small, light, and easy to read from. I just wish I would have spent the extra 30 bucks and got the paperwhite. The more i use this one the more I wish I had the option of a backlight. If you're on the fence as I was, go with the paperwhite! However if the backlight is not an issue, this device is great and I would recommend it.",
+      "processed": "small light easy read wish would spent extra bucks got paperwhite use one wish option backlight fence go paperwhite however backlight issue device great would recommend",
+      "sentiment": "positive",
+      "confidence": 0.98
+    },
+    {
+      "review": "This device is good for entry level reader only in daylight.Its doesnot support reading in dark. To read in dark you will have to purchase a light or cover case with light attached. I either case it will put a lot of strain in your eyes.",
+      "processed": "device good entry level reader doesnot support reading dark read dark purchase light cover case light attached either case put lot strain eyes",
+      "sentiment": "neutral",
+      "confidence": 0.64
+    },
+    {
+      "review": "I love my new Kindle. The size is perfect. It fits right in my purse. Easy to navigate and I love the touch screen. I am able to read outside without a glare. Only flaw is that it is not backlit, so in order to read in the dark I need a book light. I don't mind that so much, I just wish kindle would come out with a case for this Kindle with a built in book light like they did for the first generation Kindle.",
+      "processed": "love new kindle size perfect fits right purse easy navigate love touch screen able read outside without glare flaw backlit order read dark need book light mind much wish kindle would come case kindle built book light like first generation kindle",
+      "sentiment": "positive",
+      "confidence": 0.98
+    },
+    {
+      "review": "it would not load my books proper. took a dozen tries erasing an dreregistering. screen too dark",
+      "processed": "would load books proper took dozen tries erasing dreregistering screen dark",
+      "sentiment": "negative",
+      "confidence": 0.625
+    },
+    {
+      "review": "I bought this for my daughter. It is our 4th Kindle bought within the family. The touchscreen is great and my daughter loves it. In fact, those of us with older model Kindles are jealous.",
+      "processed": "bought daughter kindle bought within family touchscreen great daughter loves fact us older model kindles jealous",
+      "sentiment": "positive",
+      "confidence": 0.995
+    },
+    {
+      "review": "This is a pretty cool little device. Im able to download books through wireless and read them later at my convenience. Only drawback is I wish it had more storage. But for the price, it works good.",
+      "processed": "pretty cool little device im able download books wireless read later convenience drawback wish storage price works good",
+      "sentiment": "neutral",
+      "confidence": 0.675
+    },
+    {
+      "review": "Exactly what I was looking for size wise and functional.",
+      "processed": "exactly looking size wise functional",
+      "sentiment": "positive",
+      "confidence": 0.99
+    },
+    {
+      "review": "As always, great job! Very easy to use and it's always with me. Only problem I have is the button on the bottom is touchy, but not really an issue. Keep up the good work",
+      "processed": "always great job easy use always problem button bottom touchy really issue keep good work",
+      "sentiment": "positive",
+      "confidence": 0.975
+    },
+    {
+      "review": "I especially like the Amazon has a system to convert pdf to kindle format. Some of the things I read (journal articles) are in pdf format and I can email them to my kindle email and it shows up on my kindle with kindle format (larger text). You can find your kindel email at your account information. Only thing, I would have like a screen little larger.",
+      "processed": "especially like amazon system convert pdf kindle format things read journal articles pdf format email kindle email shows kindle kindle format larger text find kindel email account information thing would like screen little larger",
+      "sentiment": "positive",
+      "confidence": 1.0
+    },
+    {
+      "review": "Im happy to have it. Very comfortable and easy to use every where",
+      "processed": "im happy comfortable easy use every",
+      "sentiment": "positive",
+      "confidence": 1.0
+    },
+    {
+      "review": "This is my eighth Kindle. Some others were either lost or screen-damaged. I bought it as a spare. Current model is better looking than earlier versions (white case), sturdier, and has an improved screen. Great price also; wish I'd bought two.",
+      "processed": "eighth kindle others either lost bought spare current model better looking earlier versions white case sturdier improved screen great price also wish bought two",
+      "sentiment": "positive",
+      "confidence": 0.98
+    },
+    {
+      "review": "My nephew is going to college next year and we want to give him a gift. Kindle suits it well for him to learn and study.",
+      "processed": "nephew going college next year want give gift kindle suits well learn study",
+      "sentiment": "positive",
+      "confidence": 0.97
+    },
+    {
+      "review": "Excellent lightweight way to take a lot of reading materials along when traveling.",
+      "processed": "excellent lightweight way take lot reading materials along traveling",
+      "sentiment": "positive",
+      "confidence": 0.995
+    },
+    {
+      "review": "I love my Kindle! I'm back to reading so much more often as I always have several books with me at all times! At first it surprised me that this version doesn't have a back light and you need a light to read, but I actually like it now as I don't get the eye strain like I do when using my phone.",
+      "processed": "love kindle back reading much often always several books times first surprised version back light need light read actually like get eye strain like using phone",
+      "sentiment": "positive",
+      "confidence": 0.95
+    },
+    {
+      "review": "I love having real books, but these are great for travel and keeping your bookshelves lighter. I wish you could buy them with larger storage without having to buy the larger size pad. It also sucks that they are 4gig, but 1gig is taken up by the OS and advertising. Seriously? It reads PDFs and needs a 1 gig OS. Lame. The last thing I would change is being able to reverse the lettering so at night you could have white lettering and a black background, so it's less bright on the eyes.",
+      "processed": "love real books great travel keeping bookshelves lighter wish could buy larger storage without buy larger size pad also sucks taken os advertising seriously reads pdfs needs gig os lame last thing would change able reverse lettering night could white lettering black background less bright eyes",
+      "sentiment": "neutral",
+      "confidence": 0.895
+    },
+    {
+      "review": "It's a perfect gift for young adult during the holiday session.",
+      "processed": "perfect gift young adult holiday session",
+      "sentiment": "positive",
+      "confidence": 0.99
+    },
+    {
+      "review": "The screen is too dark, and cannot adjust the brightness",
+      "processed": "screen dark adjust brightness",
+      "sentiment": "positive",
+      "confidence": 0.8
+    },
+    {
+      "review": "I should have purchased a kindle sooner. It's easy to use and I love it!",
+      "processed": "purchased kindle sooner easy use love",
+      "sentiment": "positive",
+      "confidence": 1.0
+    },
+    {
+      "review": "This was purchased as a gift and they've absolutely loved it.",
+      "processed": "purchased gift absolutely loved",
+      "sentiment": "positive",
+      "confidence": 0.995
+    }
+  ]
+}

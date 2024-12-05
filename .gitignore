@@ -1,1 +1,42 @@
-node_modules
+# Dependencies
+node_modules/
+venv/
+__pycache__/
+
+# Environment
+.env
+.env.local
+
+# Model and Data
+model/
+dataset/
+bot_data/
+
+# WhatsApp session data
+.session/
+*.session.json
+open-wa-session.*
+open-wa-session/*
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Python cache
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Log files
+*.log
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo

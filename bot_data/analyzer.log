@@ -1,0 +1,175 @@
+2024-12-04 16:33:19,315 - INFO - Model components loaded successfully
+2024-12-04 16:36:13,384 - INFO - Model components loaded successfully
+2024-12-04 16:37:54,350 - INFO - Model components loaded successfully
+2024-12-04 17:07:58,329 - INFO - Model components loaded successfully
+2024-12-04 17:07:58,379 - INFO - Model components loaded successfully
+2024-12-04 17:09:18,023 - INFO - Model components loaded successfully
+2024-12-04 17:16:16,187 - INFO - Model components loaded successfully
+2024-12-04 17:18:22,506 - INFO - Model components loaded successfully
+2024-12-04 17:22:54,542 - INFO - Model components loaded successfully
+2024-12-04 17:30:10,544 - INFO - Model components loaded successfully
+2024-12-04 17:31:07,692 - INFO - Model components loaded successfully
+2024-12-04 17:40:25,369 - INFO - Model components loaded successfully
+2024-12-04 18:37:01,612 - INFO - Model components loaded successfully
+2024-12-04 18:37:02,270 - ERROR - Error loading product database: 'asins'
+2024-12-04 19:05:27,060 - INFO - Model components loaded successfully
+2024-12-04 19:05:27,061 - INFO - Loading product database...
+2024-12-04 19:05:27,913 - INFO - Available columns: ['id', 'dateAdded', 'dateUpdated', 'name', 'asins', 'brand', 'categories', 'primaryCategories', 'imageURLs', 'keys', 'manufacturer', 'manufacturerNumber', 'reviews.date', 'reviews.dateAdded', 'reviews.dateSeen', 'reviews.doRecommend', 'reviews.id', 'reviews.numHelpful', 'reviews.rating', 'reviews.sourceURLs', 'reviews.text', 'reviews.title', 'reviews.username', 'sourceURLs']
+2024-12-04 19:05:27,930 - INFO - Successfully loaded 24 products from database
+2024-12-04 19:05:27,935 - WARNING - No reviews found for product B00R3ID2BG
+2024-12-04 19:06:06,171 - INFO - Model components loaded successfully
+2024-12-04 19:06:06,171 - INFO - Loading product database...
+2024-12-04 19:06:06,960 - INFO - Available columns: ['id', 'dateAdded', 'dateUpdated', 'name', 'asins', 'brand', 'categories', 'primaryCategories', 'imageURLs', 'keys', 'manufacturer', 'manufacturerNumber', 'reviews.date', 'reviews.dateAdded', 'reviews.dateSeen', 'reviews.doRecommend', 'reviews.id', 'reviews.numHelpful', 'reviews.rating', 'reviews.sourceURLs', 'reviews.text', 'reviews.title', 'reviews.username', 'sourceURLs']
+2024-12-04 19:06:06,972 - INFO - Successfully loaded 24 products from database
+2024-12-04 19:06:06,975 - INFO - Found 96 reviews for product B00ZV9PXP2
+2024-12-04 19:07:10,704 - INFO - Model components loaded successfully
+2024-12-04 19:07:10,710 - INFO - Loading product database...
+2024-12-04 19:07:11,556 - INFO - Available columns: ['id', 'dateAdded', 'dateUpdated', 'name', 'asins', 'brand', 'categories', 'primaryCategories', 'imageURLs', 'keys', 'manufacturer', 'manufacturerNumber', 'reviews.date', 'reviews.dateAdded', 'reviews.dateSeen', 'reviews.doRecommend', 'reviews.id', 'reviews.numHelpful', 'reviews.rating', 'reviews.sourceURLs', 'reviews.text', 'reviews.title', 'reviews.username', 'sourceURLs']
+2024-12-04 19:07:11,572 - INFO - Successfully loaded 24 products from database
+2024-12-04 19:07:11,574 - INFO - Found 82 reviews for product B00IOY8XWQ
+2024-12-04 19:07:55,323 - INFO - Model components loaded successfully
+2024-12-04 19:07:55,323 - INFO - Loading product database...
+2024-12-04 19:07:56,113 - INFO - Available columns: ['id', 'dateAdded', 'dateUpdated', 'name', 'asins', 'brand', 'categories', 'primaryCategories', 'imageURLs', 'keys', 'manufacturer', 'manufacturerNumber', 'reviews.date', 'reviews.dateAdded', 'reviews.dateSeen', 'reviews.doRecommend', 'reviews.id', 'reviews.numHelpful', 'reviews.rating', 'reviews.sourceURLs', 'reviews.text', 'reviews.title', 'reviews.username', 'sourceURLs']
+2024-12-04 19:07:56,126 - INFO - Successfully loaded 24 products from database
+2024-12-04 19:07:56,128 - WARNING - No reviews found for product B00OQVZDJM
+2024-12-04 19:08:29,290 - INFO - Model components loaded successfully
+2024-12-04 19:08:29,290 - INFO - Loading product database...
+2024-12-04 19:08:30,095 - INFO - Available columns: ['id', 'dateAdded', 'dateUpdated', 'name', 'asins', 'brand', 'categories', 'primaryCategories', 'imageURLs', 'keys', 'manufacturer', 'manufacturerNumber', 'reviews.date', 'reviews.dateAdded', 'reviews.dateSeen', 'reviews.doRecommend', 'reviews.id', 'reviews.numHelpful', 'reviews.rating', 'reviews.sourceURLs', 'reviews.text', 'reviews.title', 'reviews.username', 'sourceURLs']
+2024-12-04 19:08:30,107 - INFO - Successfully loaded 24 products from database
+2024-12-04 19:08:30,109 - WARNING - No reviews found for product B00QJDU3KY
+2024-12-04 19:09:15,250 - INFO - Model components loaded successfully
+2024-12-04 19:09:15,257 - INFO - Loading product database...
+2024-12-04 19:09:16,059 - INFO - Available columns: ['id', 'dateAdded', 'dateUpdated', 'name', 'asins', 'brand', 'categories', 'primaryCategories', 'imageURLs', 'keys', 'manufacturer', 'manufacturerNumber', 'reviews.date', 'reviews.dateAdded', 'reviews.dateSeen', 'reviews.doRecommend', 'reviews.id', 'reviews.numHelpful', 'reviews.rating', 'reviews.sourceURLs', 'reviews.text', 'reviews.title', 'reviews.username', 'sourceURLs']
+2024-12-04 19:09:16,071 - INFO - Successfully loaded 24 products from database
+2024-12-04 19:09:16,074 - INFO - Found 96 reviews for product B00ZV9PXP2
+2024-12-04 19:10:02,839 - INFO - Model components loaded successfully
+2024-12-04 19:10:02,840 - INFO - Loading product database...
+2024-12-04 19:10:03,641 - INFO - Available columns: ['id', 'dateAdded', 'dateUpdated', 'name', 'asins', 'brand', 'categories', 'primaryCategories', 'imageURLs', 'keys', 'manufacturer', 'manufacturerNumber', 'reviews.date', 'reviews.dateAdded', 'reviews.dateSeen', 'reviews.doRecommend', 'reviews.id', 'reviews.numHelpful', 'reviews.rating', 'reviews.sourceURLs', 'reviews.text', 'reviews.title', 'reviews.username', 'sourceURLs']
+2024-12-04 19:10:03,654 - INFO - Successfully loaded 24 products from database
+2024-12-04 19:10:03,656 - WARNING - No reviews found for product B00OQVZDJM
+2024-12-04 19:11:23,364 - INFO - Model components loaded successfully
+2024-12-04 19:11:23,364 - INFO - Loading product database...
+2024-12-04 19:11:24,215 - INFO - Available columns: ['id', 'dateAdded', 'dateUpdated', 'name', 'asins', 'brand', 'categories', 'primaryCategories', 'imageURLs', 'keys', 'manufacturer', 'manufacturerNumber', 'reviews.date', 'reviews.dateAdded', 'reviews.dateSeen', 'reviews.doRecommend', 'reviews.id', 'reviews.numHelpful', 'reviews.rating', 'reviews.sourceURLs', 'reviews.text', 'reviews.title', 'reviews.username', 'sourceURLs']
+2024-12-04 19:11:24,227 - INFO - Successfully loaded 24 products from database
+2024-12-04 19:11:24,229 - WARNING - No reviews found for product B00QJDU3KY
+2024-12-04 19:13:45,742 - INFO - Model components loaded successfully
+2024-12-04 19:13:45,743 - INFO - Loading product database...
+2024-12-04 19:13:46,609 - INFO - Available columns: ['id', 'dateAdded', 'dateUpdated', 'name', 'asins', 'brand', 'categories', 'primaryCategories', 'imageURLs', 'keys', 'manufacturer', 'manufacturerNumber', 'reviews.date', 'reviews.dateAdded', 'reviews.dateSeen', 'reviews.doRecommend', 'reviews.id', 'reviews.numHelpful', 'reviews.rating', 'reviews.sourceURLs', 'reviews.text', 'reviews.title', 'reviews.username', 'sourceURLs']
+2024-12-04 19:13:46,622 - INFO - Successfully loaded 24 products from database
+2024-12-04 19:13:46,624 - WARNING - No reviews found for product B00ME3ZH7C
+2024-12-04 19:15:19,806 - INFO - Model components loaded successfully
+2024-12-04 19:15:19,810 - INFO - Loading product database...
+2024-12-04 19:15:20,622 - INFO - Available columns: ['id', 'dateAdded', 'dateUpdated', 'name', 'asins', 'brand', 'categories', 'primaryCategories', 'imageURLs', 'keys', 'manufacturer', 'manufacturerNumber', 'reviews.date', 'reviews.dateAdded', 'reviews.dateSeen', 'reviews.doRecommend', 'reviews.id', 'reviews.numHelpful', 'reviews.rating', 'reviews.sourceURLs', 'reviews.text', 'reviews.title', 'reviews.username', 'sourceURLs']
+2024-12-04 19:15:20,635 - INFO - Successfully loaded 24 products from database
+2024-12-04 19:15:20,637 - WARNING - No reviews found for product B00R3ID2BG
+2024-12-04 19:15:54,720 - INFO - Model components loaded successfully
+2024-12-04 19:15:54,720 - INFO - Loading product database...
+2024-12-04 19:15:55,530 - INFO - Available columns: ['id', 'dateAdded', 'dateUpdated', 'name', 'asins', 'brand', 'categories', 'primaryCategories', 'imageURLs', 'keys', 'manufacturer', 'manufacturerNumber', 'reviews.date', 'reviews.dateAdded', 'reviews.dateSeen', 'reviews.doRecommend', 'reviews.id', 'reviews.numHelpful', 'reviews.rating', 'reviews.sourceURLs', 'reviews.text', 'reviews.title', 'reviews.username', 'sourceURLs']
+2024-12-04 19:15:55,543 - INFO - Successfully loaded 24 products from database
+2024-12-04 19:15:55,545 - WARNING - No reviews found for product B00QJDU3KY
+2024-12-04 19:16:55,780 - INFO - Model components loaded successfully
+2024-12-04 19:16:55,781 - INFO - Loading product database...
+2024-12-04 19:16:56,565 - INFO - Available columns: ['id', 'dateAdded', 'dateUpdated', 'name', 'asins', 'brand', 'categories', 'primaryCategories', 'imageURLs', 'keys', 'manufacturer', 'manufacturerNumber', 'reviews.date', 'reviews.dateAdded', 'reviews.dateSeen', 'reviews.doRecommend', 'reviews.id', 'reviews.numHelpful', 'reviews.rating', 'reviews.sourceURLs', 'reviews.text', 'reviews.title', 'reviews.username', 'sourceURLs']
+2024-12-04 19:16:56,578 - INFO - Successfully loaded 24 products from database
+2024-12-04 19:16:56,580 - INFO - Found 96 reviews for product B00ZV9PXP2
+2024-12-04 19:32:05,320 - INFO - Model components loaded successfully
+2024-12-04 19:32:05,321 - INFO - Loading product database...
+2024-12-04 19:32:06,286 - INFO - Initial dataset size: 5000 rows
+2024-12-04 19:32:06,689 - INFO - Successfully loaded 24 products from database
+2024-12-04 19:32:06,693 - INFO - Sample ASINs in database: ['B00ZV9PXP2', 'B010CEHQTG', 'B01J24C0TI', 'B01N32NCPM', 'B06XB29FPF']
+2024-12-04 19:32:06,694 - INFO - Searching for reviews of product: B00QJDU3KY
+2024-12-04 19:32:06,700 - WARNING - No reviews found for product B00QJDU3KY
+2024-12-04 19:32:06,700 - INFO - Sample ASINs in dataset: ['B00ZV9PXP2', 'B00ZV9PXP2', 'B00ZV9PXP2', 'B00ZV9PXP2', 'B00ZV9PXP2']
+2024-12-04 19:32:06,701 - INFO - Product ID: B00QJDU3KY
+2024-12-04 19:32:06,701 - INFO - Found 0 reviews
+2024-12-04 19:32:06,701 - WARNING - No reviews found in dataset for product B00QJDU3KY
+2024-12-04 19:33:38,061 - INFO - Model components loaded successfully
+2024-12-04 19:33:38,063 - INFO - Loading product database...
+2024-12-04 19:33:38,929 - INFO - Initial dataset size: 5000 rows
+2024-12-04 19:33:39,313 - INFO - Successfully loaded 24 products from database
+2024-12-04 19:33:39,313 - INFO - Sample ASINs in database: ['B00ZV9PXP2', 'B010CEHQTG', 'B01J24C0TI', 'B01N32NCPM', 'B06XB29FPF']
+2024-12-04 19:33:39,314 - INFO - Searching for reviews of product: B00ZV9PXP2
+2024-12-04 19:33:39,318 - INFO - Found 96 reviews with exact match
+2024-12-04 19:33:39,318 - INFO - Sample review: I thought it would be as big as small paper but turn out to be just like my palm. I think it is too ...
+2024-12-04 19:33:39,318 - INFO - Product ID: B00ZV9PXP2
+2024-12-04 19:33:39,318 - INFO - Found 96 reviews
+2024-12-04 19:34:23,470 - INFO - Model components loaded successfully
+2024-12-04 19:34:23,470 - INFO - Loading product database...
+2024-12-04 19:34:24,291 - INFO - Initial dataset size: 5000 rows
+2024-12-04 19:34:24,668 - INFO - Successfully loaded 24 products from database
+2024-12-04 19:34:24,668 - INFO - Sample ASINs in database: ['B00ZV9PXP2', 'B010CEHQTG', 'B01J24C0TI', 'B01N32NCPM', 'B06XB29FPF']
+2024-12-04 19:34:24,669 - INFO - Searching for reviews of product: B010CEHQTG
+2024-12-04 19:34:24,673 - INFO - Found 650 reviews with exact match
+2024-12-04 19:34:24,674 - INFO - Sample review: Great Gift for anyone. Very easy to setup. Coexist with all IOT Devices. Alexa is AWESOME!...
+2024-12-04 19:34:24,674 - INFO - Product ID: B010CEHQTG
+2024-12-04 19:34:24,674 - INFO - Found 650 reviews
+2024-12-04 19:35:24,667 - INFO - Model components loaded successfully
+2024-12-04 19:35:24,668 - INFO - Loading product database...
+2024-12-04 19:35:25,456 - INFO - Initial dataset size: 5000 rows
+2024-12-04 19:35:25,847 - INFO - Successfully loaded 24 products from database
+2024-12-04 19:35:25,847 - INFO - Sample ASINs in database: ['B00ZV9PXP2', 'B010CEHQTG', 'B01J24C0TI', 'B01N32NCPM', 'B06XB29FPF']
+2024-12-04 19:35:25,848 - INFO - Searching for reviews of product: B01J24C0TI
+2024-12-04 19:35:25,852 - INFO - Found 195 reviews with exact match
+2024-12-04 19:35:25,852 - INFO - Sample review: I love having the screen available to use for certain tasks like streaming doorbell video, security ...
+2024-12-04 19:35:25,853 - INFO - Product ID: B01J24C0TI
+2024-12-04 19:35:25,853 - INFO - Found 195 reviews
+2024-12-04 19:36:44,667 - INFO - Model components loaded successfully
+2024-12-04 19:36:44,667 - INFO - Loading product database...
+2024-12-04 19:36:45,458 - INFO - Initial dataset size: 5000 rows
+2024-12-04 19:36:45,841 - INFO - Successfully loaded 24 products from database
+2024-12-04 19:36:45,841 - INFO - Sample ASINs in database: ['B00ZV9PXP2', 'B010CEHQTG', 'B01J24C0TI', 'B01N32NCPM', 'B06XB29FPF']
+2024-12-04 19:36:45,842 - INFO - Searching for reviews of product: B01N32NCPM
+2024-12-04 19:36:45,846 - INFO - Found 4 reviews with exact match
+2024-12-04 19:36:45,847 - INFO - Sample review: A lazy mans drean when it is combined with Alexa. If you get the harmony hub you can really impress ...
+2024-12-04 19:36:45,847 - INFO - Product ID: B01N32NCPM
+2024-12-04 19:36:45,847 - INFO - Found 4 reviews
+2024-12-04 19:37:36,550 - INFO - Model components loaded successfully
+2024-12-04 19:37:36,550 - INFO - Loading product database...
+2024-12-04 19:37:37,378 - INFO - Initial dataset size: 5000 rows
+2024-12-04 19:37:38,302 - INFO - Successfully loaded 24 products from database
+2024-12-04 19:37:38,303 - INFO - Sample ASINs in database: ['B00ZV9PXP2', 'B010CEHQTG', 'B01J24C0TI', 'B01N32NCPM', 'B06XB29FPF']
+2024-12-04 19:37:38,305 - INFO - Searching for reviews of product: B06XB29FPF
+2024-12-04 19:37:38,313 - INFO - Found 590 reviews with exact match
+2024-12-04 19:37:38,313 - INFO - Sample review: Works great. Turns H&A up and down. Tv on and off. Lights on and off. All from Alexa. You do have to...
+2024-12-04 19:37:38,313 - INFO - Product ID: B06XB29FPF
+2024-12-04 19:37:38,314 - INFO - Found 590 reviews
+2024-12-04 20:20:43,865 - INFO - Model components loaded successfully
+2024-12-04 20:20:43,866 - INFO - Loading product database...
+2024-12-04 20:20:43,894 - INFO - Model components loaded successfully
+2024-12-04 20:20:43,894 - INFO - Loading product database...
+2024-12-04 20:20:44,802 - INFO - Initial dataset size: 5000 rows
+2024-12-04 20:20:44,802 - INFO - Initial dataset size: 5000 rows
+2024-12-04 20:20:45,232 - INFO - Successfully loaded 24 products from database
+2024-12-04 20:20:45,233 - INFO - Sample ASINs in database: ['B00ZV9PXP2', 'B010CEHQTG', 'B01J24C0TI', 'B01N32NCPM', 'B06XB29FPF']
+2024-12-04 20:20:45,236 - INFO - Searching for reviews of product: B01N32NCPM
+2024-12-04 20:20:45,237 - INFO - Successfully loaded 24 products from database
+2024-12-04 20:20:45,281 - INFO - Sample ASINs in database: ['B00ZV9PXP2', 'B010CEHQTG', 'B01J24C0TI', 'B01N32NCPM', 'B06XB29FPF']
+2024-12-04 20:20:45,283 - INFO - Searching for reviews of product: B01J24C0TI
+2024-12-04 20:20:45,296 - INFO - Found 4 reviews with exact match
+2024-12-04 20:20:45,296 - INFO - Sample review: A lazy mans drean when it is combined with Alexa. If you get the harmony hub you can really impress ...
+2024-12-04 20:20:45,296 - INFO - Product ID: B01N32NCPM
+2024-12-04 20:20:45,297 - INFO - Found 4 reviews
+2024-12-04 20:20:45,297 - INFO - Found 195 reviews with exact match
+2024-12-04 20:20:45,297 - INFO - Sample review: I love having the screen available to use for certain tasks like streaming doorbell video, security ...
+2024-12-04 20:20:45,298 - INFO - Product ID: B01J24C0TI
+2024-12-04 20:20:45,298 - INFO - Found 195 reviews
+2024-12-04 20:21:48,552 - INFO - Model components loaded successfully
+2024-12-04 20:21:48,553 - INFO - Loading product database...
+2024-12-04 20:21:48,779 - INFO - Model components loaded successfully
+2024-12-04 20:21:48,779 - INFO - Loading product database...
+2024-12-04 20:21:49,356 - INFO - Initial dataset size: 5000 rows
+2024-12-04 20:21:49,578 - INFO - Initial dataset size: 5000 rows
+2024-12-04 20:21:49,746 - INFO - Successfully loaded 24 products from database
+2024-12-04 20:21:49,746 - INFO - Sample ASINs in database: ['B00ZV9PXP2', 'B010CEHQTG', 'B01J24C0TI', 'B01N32NCPM', 'B06XB29FPF']
+2024-12-04 20:21:49,747 - INFO - Searching for reviews of product: B01J24C0TI
+2024-12-04 20:21:49,751 - INFO - Found 195 reviews with exact match
+2024-12-04 20:21:49,751 - INFO - Sample review: I love having the screen available to use for certain tasks like streaming doorbell video, security ...
+2024-12-04 20:21:49,751 - INFO - Product ID: B01J24C0TI
+2024-12-04 20:21:49,752 - INFO - Found 195 reviews
+2024-12-04 20:21:49,969 - INFO - Successfully loaded 24 products from database
+2024-12-04 20:21:49,969 - INFO - Sample ASINs in database: ['B00ZV9PXP2', 'B010CEHQTG', 'B01J24C0TI', 'B01N32NCPM', 'B06XB29FPF']
+2024-12-04 20:21:49,969 - INFO - Searching for reviews of product: B010CEHQTG
+2024-12-04 20:21:49,974 - INFO - Found 650 reviews with exact match
+2024-12-04 20:21:49,974 - INFO - Sample review: Great Gift for anyone. Very easy to setup. Coexist with all IOT Devices. Alexa is AWESOME!...
+2024-12-04 20:21:49,975 - INFO - Product ID: B010CEHQTG
+2024-12-04 20:21:49,975 - INFO - Found 650 reviews

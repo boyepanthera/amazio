@@ -1,3 +1,6 @@
-2024/12/04-14:44:00.871 3b03 Reusing MANIFEST /Users/boyepanthera/Documents/projects/amazio/_IGNORE_AMAZIO/Default/Local Storage/leveldb/MANIFEST-000001
-2024/12/04-14:44:00.879 3b03 Recovering log #3
-2024/12/04-14:44:00.880 3b03 Reusing old log /Users/boyepanthera/Documents/projects/amazio/_IGNORE_AMAZIO/Default/Local Storage/leveldb/000003.log 
+2024/12/04-20:14:15.203 2907 Reusing MANIFEST /Users/boyepanthera/Documents/projects/amazio/_IGNORE_AMAZIO/Default/Local Storage/leveldb/MANIFEST-000001
+2024/12/04-20:14:15.214 2907 Recovering log #13
+2024/12/04-20:14:15.214 2907 Reusing old log /Users/boyepanthera/Documents/projects/amazio/_IGNORE_AMAZIO/Default/Local Storage/leveldb/000013.log 
+2024/12/04-20:15:15.804 3103 Level-0 table #17: started
+2024/12/04-20:15:15.846 3103 Level-0 table #17: 15362 bytes OK
+2024/12/04-20:15:15.892 3103 Delete type=0 #13

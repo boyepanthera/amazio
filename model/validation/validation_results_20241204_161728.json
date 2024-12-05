@@ -1,0 +1,468 @@
+{
+  "timestamp": "2024-12-04T16:17:27.863072",
+  "model_info": {
+    "training_date": "2024-12-04T16:14:09.831339",
+    "model_type": "RandomForestClassifier",
+    "vectorizer_params": {
+      "analyzer": "word",
+      "binary": false,
+      "decode_error": "strict",
+      "dtype": "<class 'numpy.float64'>",
+      "encoding": "utf-8",
+      "input": "content",
+      "lowercase": true,
+      "max_df": 1.0,
+      "max_features": 5000,
+      "min_df": 1,
+      "ngram_range": "(1, 1)",
+      "norm": "l2",
+      "preprocessor": "None",
+      "smooth_idf": true,
+      "stop_words": "None",
+      "strip_accents": "None",
+      "sublinear_tf": false,
+      "token_pattern": "(?u)\\b\\w\\w+\\b",
+      "tokenizer": "None",
+      "use_idf": true,
+      "vocabulary": "None"
+    },
+    "feature_count": 4596,
+    "training_samples": 4000,
+    "model_performance": {
+      "best_params": {
+        "max_depth": "None",
+        "min_samples_leaf": 1,
+        "min_samples_split": 2,
+        "n_estimators": 200
+      },
+      "best_score": 0.9497500000000001,
+      "test_accuracy": 0.954,
+      "cross_val_scores": [
+        0.95,
+        0.95125,
+        0.95125,
+        0.9425,
+        0.95375
+      ],
+      "classification_report": {
+        "negative": {
+          "precision": 1.0,
+          "recall": 0.2916666666666667,
+          "f1-score": 0.45161290322580644,
+          "support": 24.0
+        },
+        "neutral": {
+          "precision": 1.0,
+          "recall": 0.2564102564102564,
+          "f1-score": 0.40816326530612246,
+          "support": 39.0
+        },
+        "positive": {
+          "precision": 0.953204476093591,
+          "recall": 1.0,
+          "f1-score": 0.9760416666666667,
+          "support": 937.0
+        },
+        "accuracy": 0.954,
+        "macro avg": {
+          "precision": 0.9844014920311971,
+          "recall": 0.5160256410256411,
+          "f1-score": 0.6119392783995319,
+          "support": 1000.0
+        },
+        "weighted avg": {
+          "precision": 0.9561525940996949,
+          "recall": 0.954,
+          "f1-score": 0.9413081186910249,
+          "support": 1000.0
+        }
+      }
+    },
+    "preprocessing_steps": [
+      "lowercase",
+      "tokenization",
+      "remove_stopwords",
+      "remove_non_alphabetic"
+    ]
+  },
+  "preprocessing_validation": {
+    "positive": [
+      {
+        "original": "This is an absolutely amazing product! Best purchase ever.",
+        "processed": "absolutely amazing product best purchase ever",
+        "vector_shape": [
+          1,
+          4596
+        ],
+        "feature_count": 4596,
+        "expected_features": 4596,
+        "is_valid": true
+      },
+      {
+        "original": "High quality, great value, fast shipping. Couldn't be happier.",
+        "processed": "high quality great value fast shipping could happier",
+        "vector_shape": [
+          1,
+          4596
+        ],
+        "feature_count": 4596,
+        "expected_features": 4596,
+        "is_valid": true
+      },
+      {
+        "original": "Exceeded all my expectations, worth every penny.",
+        "processed": "exceeded expectations worth every penny",
+        "vector_shape": [
+          1,
+          4596
+        ],
+        "feature_count": 4596,
+        "expected_features": 4596,
+        "is_valid": true
+      },
+      {
+        "original": "Perfect for what I needed, highly recommend to others.",
+        "processed": "perfect needed highly recommend others",
+        "vector_shape": [
+          1,
+          4596
+        ],
+        "feature_count": 4596,
+        "expected_features": 4596,
+        "is_valid": true
+      }
+    ],
+    "negative": [
+      {
+        "original": "Terrible quality, broke after first use. Avoid!",
+        "processed": "terrible quality broke first use avoid",
+        "vector_shape": [
+          1,
+          4596
+        ],
+        "feature_count": 4596,
+        "expected_features": 4596,
+        "is_valid": true
+      },
+      {
+        "original": "Complete waste of money, very disappointing.",
+        "processed": "complete waste money disappointing",
+        "vector_shape": [
+          1,
+          4596
+        ],
+        "feature_count": 4596,
+        "expected_features": 4596,
+        "is_valid": true
+      },
+      {
+        "original": "Poor customer service and product didn't work.",
+        "processed": "poor customer service product work",
+        "vector_shape": [
+          1,
+          4596
+        ],
+        "feature_count": 4596,
+        "expected_features": 4596,
+        "is_valid": true
+      },
+      {
+        "original": "Wouldn't recommend to anyone, save your money.",
+        "processed": "would recommend anyone save money",
+        "vector_shape": [
+          1,
+          4596
+        ],
+        "feature_count": 4596,
+        "expected_features": 4596,
+        "is_valid": true
+      }
+    ],
+    "neutral": [
+      {
+        "original": "It's okay, nothing special but gets the job done.",
+        "processed": "okay nothing special gets job done",
+        "vector_shape": [
+          1,
+          4596
+        ],
+        "feature_count": 4596,
+        "expected_features": 4596,
+        "is_valid": true
+      },
+      {
+        "original": "Average product, has pros and cons.",
+        "processed": "average product pros cons",
+        "vector_shape": [
+          1,
+          4596
+        ],
+        "feature_count": 4596,
+        "expected_features": 4596,
+        "is_valid": true
+      },
+      {
+        "original": "Decent for the price, but could be better.",
+        "processed": "decent price could better",
+        "vector_shape": [
+          1,
+          4596
+        ],
+        "feature_count": 4596,
+        "expected_features": 4596,
+        "is_valid": true
+      },
+      {
+        "original": "Not sure about this one, mixed feelings.",
+        "processed": "sure one mixed feelings",
+        "vector_shape": [
+          1,
+          4596
+        ],
+        "feature_count": 4596,
+        "expected_features": 4596,
+        "is_valid": true
+      }
+    ],
+    "edge_cases": [
+      {
+        "original": "",
+        "processed": "",
+        "vector_shape": [
+          1,
+          4596
+        ],
+        "feature_count": 4596,
+        "expected_features": 4596,
+        "is_valid": true
+      },
+      {
+        "original": "!@#$%",
+        "processed": "",
+        "vector_shape": [
+          1,
+          4596
+        ],
+        "feature_count": 4596,
+        "expected_features": 4596,
+        "is_valid": true
+      },
+      {
+        "original": "5 stars",
+        "processed": "stars",
+        "vector_shape": [
+          1,
+          4596
+        ],
+        "feature_count": 4596,
+        "expected_features": 4596,
+        "is_valid": true
+      },
+      {
+        "original": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "processed": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "vector_shape": [
+          1,
+          4596
+        ],
+        "feature_count": 4596,
+        "expected_features": 4596,
+        "is_valid": true
+      },
+      {
+        "original": "\u77ed\u8bc4",
+        "processed": "\u77ed\u8bc4",
+        "vector_shape": [
+          1,
+          4596
+        ],
+        "feature_count": 4596,
+        "expected_features": 4596,
+        "is_valid": true
+      },
+      {
+        "original": "ALL CAPS REVIEW!!!",
+        "processed": "caps review",
+        "vector_shape": [
+          1,
+          4596
+        ],
+        "feature_count": 4596,
+        "expected_features": 4596,
+        "is_valid": true
+      }
+    ]
+  },
+  "prediction_validation": {
+    "positive": [
+      {
+        "test_case": "This is an absolutely amazing product! Best purchase ever.",
+        "processed": "absolutely amazing product best purchase ever",
+        "prediction": "positive",
+        "confidence": 0.995,
+        "category": "positive",
+        "success": true
+      },
+      {
+        "test_case": "High quality, great value, fast shipping. Couldn't be happier.",
+        "processed": "high quality great value fast shipping could happier",
+        "prediction": "positive",
+        "confidence": 0.985,
+        "category": "positive",
+        "success": true
+      },
+      {
+        "test_case": "Exceeded all my expectations, worth every penny.",
+        "processed": "exceeded expectations worth every penny",
+        "prediction": "positive",
+        "confidence": 0.995,
+        "category": "positive",
+        "success": true
+      },
+      {
+        "test_case": "Perfect for what I needed, highly recommend to others.",
+        "processed": "perfect needed highly recommend others",
+        "prediction": "positive",
+        "confidence": 1.0,
+        "category": "positive",
+        "success": true
+      }
+    ],
+    "negative": [
+      {
+        "test_case": "Terrible quality, broke after first use. Avoid!",
+        "processed": "terrible quality broke first use avoid",
+        "prediction": "negative",
+        "confidence": 0.435,
+        "category": "negative",
+        "success": true
+      },
+      {
+        "test_case": "Complete waste of money, very disappointing.",
+        "processed": "complete waste money disappointing",
+        "prediction": "positive",
+        "confidence": 0.69,
+        "category": "negative",
+        "success": true
+      },
+      {
+        "test_case": "Poor customer service and product didn't work.",
+        "processed": "poor customer service product work",
+        "prediction": "positive",
+        "confidence": 0.735,
+        "category": "negative",
+        "success": true
+      },
+      {
+        "test_case": "Wouldn't recommend to anyone, save your money.",
+        "processed": "would recommend anyone save money",
+        "prediction": "positive",
+        "confidence": 0.995,
+        "category": "negative",
+        "success": true
+      }
+    ],
+    "neutral": [
+      {
+        "test_case": "It's okay, nothing special but gets the job done.",
+        "processed": "okay nothing special gets job done",
+        "prediction": "positive",
+        "confidence": 0.845,
+        "category": "neutral",
+        "success": true
+      },
+      {
+        "test_case": "Average product, has pros and cons.",
+        "processed": "average product pros cons",
+        "prediction": "positive",
+        "confidence": 0.76,
+        "category": "neutral",
+        "success": true
+      },
+      {
+        "test_case": "Decent for the price, but could be better.",
+        "processed": "decent price could better",
+        "prediction": "positive",
+        "confidence": 0.91,
+        "category": "neutral",
+        "success": true
+      },
+      {
+        "test_case": "Not sure about this one, mixed feelings.",
+        "processed": "sure one mixed feelings",
+        "prediction": "positive",
+        "confidence": 1.0,
+        "category": "neutral",
+        "success": true
+      }
+    ],
+    "edge_cases": [
+      {
+        "test_case": "",
+        "processed": "",
+        "prediction": "positive",
+        "confidence": 1.0,
+        "category": "edge_cases",
+        "success": true
+      },
+      {
+        "test_case": "!@#$%",
+        "processed": "",
+        "prediction": "positive",
+        "confidence": 1.0,
+        "category": "edge_cases",
+        "success": true
+      },
+      {
+        "test_case": "5 stars",
+        "processed": "stars",
+        "prediction": "positive",
+        "confidence": 1.0,
+        "category": "edge_cases",
+        "success": true
+      },
+      {
+        "test_case": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "processed": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "prediction": "positive",
+        "confidence": 1.0,
+        "category": "edge_cases",
+        "success": true
+      },
+      {
+        "test_case": "\u77ed\u8bc4",
+        "processed": "\u77ed\u8bc4",
+        "prediction": "positive",
+        "confidence": 1.0,
+        "category": "edge_cases",
+        "success": true
+      },
+      {
+        "test_case": "ALL CAPS REVIEW!!!",
+        "processed": "caps review",
+        "prediction": "positive",
+        "confidence": 0.975,
+        "category": "edge_cases",
+        "success": true
+      }
+    ]
+  },
+  "edge_case_handling": {},
+  "performance_metrics": {
+    "preprocessing": {
+      "total_cases": 18,
+      "successful_preprocessing": 18,
+      "feature_dimension_matches": 0
+    },
+    "predictions": {
+      "total_predictions": 18,
+      "successful_predictions": 18,
+      "high_confidence_predictions": 14,
+      "average_confidence": 0.9958333333333332
+    },
+    "edge_cases": {
+      "total_handled": 0,
+      "successfully_handled": 0
+    }
+  }
+}

@@ -1,0 +1,59 @@
+2024-12-04 16:04:37,619 - INFO - Created directory: model
+2024-12-04 16:04:37,620 - INFO - Created directory: model/validation
+2024-12-04 16:04:37,620 - INFO - Created directory: model/metadata
+2024-12-04 16:04:37,620 - INFO - Created directory: bot_data
+2024-12-04 16:04:38,503 - INFO - NLTK setup completed successfully
+2024-12-04 16:04:38,504 - INFO - Loading dataset...
+2024-12-04 16:04:39,350 - INFO - Dataset loaded with 5000 rows
+2024-12-04 16:04:40,541 - INFO - Data preparation completed successfully
+2024-12-04 16:04:40,541 - INFO - Starting model training...
+2024-12-04 16:06:14,582 - INFO - Model training completed successfully
+2024-12-04 16:06:14,582 - INFO - Saving model artifacts...
+2024-12-04 16:06:14,646 - ERROR - Error saving model artifacts: Object of type type is not JSON serializable
+2024-12-04 16:06:14,646 - ERROR - Error in model training: Object of type type is not JSON serializable
+2024-12-04 16:06:14,646 - ERROR - Pipeline failed: Object of type type is not JSON serializable
+2024-12-04 16:12:39,143 - INFO - Created directory: model
+2024-12-04 16:12:39,144 - INFO - Created directory: model/validation
+2024-12-04 16:12:39,144 - INFO - Created directory: model/metadata
+2024-12-04 16:12:39,144 - INFO - Created directory: bot_data
+2024-12-04 16:12:39,900 - INFO - NLTK setup completed successfully
+2024-12-04 16:12:39,900 - INFO - Loading dataset...
+2024-12-04 16:12:40,753 - INFO - Dataset loaded with 5000 rows
+2024-12-04 16:12:41,919 - INFO - Data preparation completed successfully
+2024-12-04 16:12:41,919 - INFO - Starting model training...
+2024-12-04 16:14:09,766 - INFO - Model training completed successfully
+2024-12-04 16:14:09,768 - INFO - Saving model artifacts...
+2024-12-04 16:14:09,836 - INFO - Model artifacts saved successfully
+2024-12-04 16:14:09,838 - INFO - Starting model validation...
+2024-12-04 16:14:10,128 - INFO - Model validation completed successfully
+2024-12-04 16:14:10,131 - INFO - Review analyzer pipeline completed successfully
+2024-12-04 17:34:31,991 - INFO - Created directory: model
+2024-12-04 17:34:31,991 - INFO - Created directory: model/validation
+2024-12-04 17:34:31,991 - INFO - Created directory: model/metadata
+2024-12-04 17:34:31,992 - INFO - Created directory: bot_data
+2024-12-04 17:34:32,832 - INFO - NLTK setup completed successfully
+2024-12-04 17:34:32,832 - INFO - Loading dataset...
+2024-12-04 17:34:33,715 - INFO - Dataset loaded with 5000 rows
+2024-12-04 17:34:34,644 - INFO - Data preparation completed successfully
+2024-12-04 17:34:34,644 - INFO - Starting model training...
+2024-12-04 17:35:39,916 - INFO - Model training completed successfully
+2024-12-04 17:35:39,918 - INFO - Saving model artifacts...
+2024-12-04 17:35:39,973 - INFO - Model artifacts saved successfully
+2024-12-04 17:35:39,975 - INFO - Starting model validation...
+2024-12-04 17:35:40,172 - INFO - Model validation completed successfully
+2024-12-04 17:35:40,174 - INFO - Review analyzer pipeline completed successfully
+2024-12-04 18:19:42,185 - INFO - Created directory: model
+2024-12-04 18:19:42,185 - INFO - Created directory: model/validation
+2024-12-04 18:19:42,185 - INFO - Created directory: model/metadata
+2024-12-04 18:19:42,185 - INFO - Created directory: bot_data
+2024-12-04 18:19:43,067 - INFO - NLTK setup completed successfully
+2024-12-04 18:19:43,067 - INFO - Loading dataset...
+2024-12-04 18:19:43,831 - INFO - Dataset loaded with 5000 rows
+2024-12-04 18:19:44,636 - INFO - Data preparation completed successfully
+2024-12-04 18:19:44,636 - INFO - Starting model training...
+2024-12-04 18:20:42,700 - INFO - Model training completed successfully
+2024-12-04 18:20:42,700 - INFO - Saving model artifacts...
+2024-12-04 18:20:42,759 - INFO - Model artifacts saved successfully
+2024-12-04 18:20:42,760 - INFO - Starting model validation...
+2024-12-04 18:20:42,960 - INFO - Model validation completed successfully
+2024-12-04 18:20:42,962 - INFO - Review analyzer pipeline completed successfully

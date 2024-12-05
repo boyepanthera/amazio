@@ -157,14 +157,34 @@ class ReviewAnalyzer:
             with open('model/vectorizer.pkl', 'wb') as f:
                 pickle.dump(self.vectorizer, f)
 
-            # Save metadata
+            # Convert non-serializable types to serializable format
             metadata = {
                 'training_date': datetime.now().isoformat(),
                 'model_type': self.model.best_estimator_.__class__.__name__,
-                'vectorizer_params': self.vectorizer.get_params(),
+                'vectorizer_params': {
+                    key: str(value) if not isinstance(value, (int, float, bool, str, list, dict)) 
+                    else value
+                    for key, value in self.vectorizer.get_params().items()
+                },
                 'feature_count': len(self.vectorizer.get_feature_names_out()),
                 'training_samples': X_train_vectorized.shape[0],
-                'model_performance': self.training_metrics,
+                'model_performance': {
+                    'best_params': {
+                        key: str(value) if not isinstance(value, (int, float, bool, str, list, dict))
+                        else value
+                        for key, value in self.training_metrics['best_params'].items()
+                    },
+                    'best_score': float(self.training_metrics['best_score']),
+                    'test_accuracy': float(self.training_metrics['test_accuracy']),
+                    'cross_val_scores': [float(score) for score in self.training_metrics['cross_val_scores']],
+                    'classification_report': {
+                        key: ({
+                            metric: float(value)
+                            for metric, value in inner_dict.items()
+                        } if isinstance(inner_dict, dict) else float(inner_dict))
+                        for key, inner_dict in self.training_metrics['classification_report'].items()
+                    }
+                },
                 'preprocessing_steps': [
                     'lowercase',
                     'tokenization',
@@ -173,6 +193,7 @@ class ReviewAnalyzer:
                 ]
             }
 
+            # Save metadata
             with open('model/metadata/model_info.json', 'w') as f:
                 json.dump(metadata, f, indent=2)
 
